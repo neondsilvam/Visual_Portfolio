@@ -1,0 +1,36 @@
+import { useLang } from '../context/LangContext'
+import { contactInfo } from '../data/contact'
+import styles from './Contacto.module.css'
+
+export function Contacto() {
+  const { t } = useLang()
+  const { title, subtitle, labels } = t.contacto
+
+  const items = [
+    { label: labels.email, value: contactInfo.email, href: `mailto:${contactInfo.email}` },
+    { label: labels.phone, value: contactInfo.phone, href: `tel:${contactInfo.phone}` },
+    { label: labels.linkedin, value: contactInfo.linkedin, href: `https://${contactInfo.linkedin}` },
+  ]
+
+  return (
+    <section className={styles.section}>
+      <h2 className={styles.title}>{title}</h2>
+      <p className={styles.subtitle}>{subtitle}</p>
+
+      <div className={styles.grid}>
+        {items.map(({ label, value, href }) => (
+          <div key={label} className={styles.card}>
+            <p className={styles.label}>{label}</p>
+            {href ? (
+              <a href={href} className={styles.valueLink} target="_blank" rel="noreferrer">
+                {value}
+              </a>
+            ) : (
+              <p className={styles.value}>{value}</p>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
