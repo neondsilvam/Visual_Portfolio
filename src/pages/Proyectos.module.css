@@ -31,7 +31,7 @@
 .sectionTitle {
     font-size: 11px;
     font-weight: 600;
-    color: #011A01;
+    color: #d3d3d3;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     padding: 0 10px;
@@ -41,7 +41,7 @@
 .sectionSubTitle {
     font-size: 14px;
     font-weight: 600;
-    color: #2C5836;
+    color: #59b66e;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     padding: 0 10px;
@@ -57,7 +57,7 @@
   border-radius: 8px;
   border: none;
   background: transparent;
-  color: #6b7280;
+  color: #cbd0e6;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
   margin-bottom: 2px;
