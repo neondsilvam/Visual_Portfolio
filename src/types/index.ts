@@ -52,7 +52,8 @@ export interface Translations {
     subtitle2: string
     labels: {
       email: string
-      phone: string
+      phoneCol: string
+      phoneCad: string
       location: string
       linkedin: string
       github: string

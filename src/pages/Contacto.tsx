@@ -8,7 +8,8 @@ export function Contacto() {
 
   const items = [
     { label: labels.email, value: contactInfo.email, href: `mailto:${contactInfo.email}` },
-    { label: labels.phone, value: contactInfo.phone, href: `tel:${contactInfo.phone}` },
+    { label: labels.phoneCol, value: contactInfo.phoneCol, href: `tel:${contactInfo.phoneCol}` },
+    { label: labels.phoneCad, value: contactInfo.phoneCad, href: `tel:${contactInfo.phoneCad}` },
     { label: labels.linkedin, value: contactInfo.linkedin, href: `https://${contactInfo.linkedin}` },
   ]
 
