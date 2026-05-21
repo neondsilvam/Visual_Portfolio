@@ -51,7 +51,7 @@ export const AnimationProjects: Project[] = [
   },
   {
     id: 'p7',
-    title: 'All Digital Media & Yandex',
+    title: 'All Digital Media & Kommo',
     description:
         'Este es un reel en el cual ayudé a traducir el contenido, dado que el idioma original era inglés. También modifiqué los datos del final del video para que encajaran con la empresa "All Digital Media". Este cambio fue hecho con Adobe Premiere Pro.',
     iframeSrc: 'https://youtube.com/embed/1WuCEfHVqKE?si=Cb7EJZq1qPUohQoi',
@@ -88,6 +88,22 @@ export const AnimationProjects: Project[] = [
         'Este es un proyecto de rotoscopia en el cual quise experimentar y fue una de mis primeras veces usando Adobe Photoshop. Este fue hecho usando dicho programa en combinación con Adobe Premiere Pro. El sonido fue de stock y me demoré 2 semanas en producirlo entre grabar los fotogramas originales, hacer la rotoscopia y la postproducción.',
     iframeSrc: 'https://www.youtube.com/embed/QvqdybkfV2g?si=iCi8a9ctJ5-mHg9p',
     section: '2022',
+  },
+  {
+    id: 'p12',
+    title: 'SALESmanago y Yandex ADS',
+    description:
+        'Este fue un proyecto en el que participé como editor, encargado de retocar el video de animación original, agregando logotipos y combinándolos de manera eficiente con las transiciones ya existentes. Además, integré todos los elementos en un corto período de tiempo de forma efectiva. Este proyecto fue editado utilizando Adobe Premiere Pro.',
+    iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=kQbA5_IqMW0bBG6G',
+    section: '2024',
+  },
+  {
+    id: 'p13',
+    title: 'AllDigital, SALESmanago y Yandex ADS',
+    description:
+        'Este es un proyecto en el cual mi rol fue como editor y traductor del video. Para el contenido principal, me encargué de agregar los logotipos de la marca e integrarlos de manera armoniosa con el material ya existente. Además, traduje el video, que originalmente estaba en inglés. Todo el trabajo fue realizado en un corto período de tiempo utilizando Adobe Premiere Pro.',
+    iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=QUrFat9nCfqdG1lr',
+    section: '2024',
   },
 ]
 
@@ -142,7 +158,7 @@ export const AnimationProjectsEn: Project[] = [
   },
   {
     id: 'p7',
-    title: 'All Digital Media & Yandex',
+    title: 'All Digital Media & Kommo',
     description:
         'This reel involved translation and localization work, as the original material was in English. I also modified the final on-screen information to align with the branding and company details of "All Digital Media". The editing adjustments were completed using Adobe Premiere Pro.',
     iframeSrc: 'https://youtube.com/embed/1WuCEfHVqKE?si=Cb7EJZq1qPUohQoi',
@@ -179,5 +195,21 @@ export const AnimationProjectsEn: Project[] = [
         'This is a rotoscoping project in which I experimented with animation techniques during one of my first experiences using Adobe Photoshop. The project was created using Photoshop in combination with Adobe Premiere Pro. Stock audio was used, and the full production process took approximately 2 weeks, including recording the original frames, rotoscoping, and post-production.',
     iframeSrc: 'https://www.youtube.com/embed/QvqdybkfV2g?si=iCi8a9ctJ5-mHg9p',
     section: '2022',
+  },
+  {
+    id: 'p12',
+    title: 'SALESmanago and Yandex ADS',
+    description:
+        'This was a project where I worked as editor, responsible for refining the original animated video by adding logos and integrating them efficiently with the existing transitions. Additionally, I incorporated all elements within a short timeframe in an effective manner. This project was edited using Adobe Premiere Pro.',
+    iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=kQbA5_IqMW0bBG6G',
+    section: '2024',
+  },
+  {
+    id: 'p13',
+    title: 'AllDigital, SALESmanago and Yandex ADS',
+    description:
+        'This is a project in which my role was both video editor and translator. For the main content, I was responsible for adding the brand logos and integrating them seamlessly with the existing video material. Additionally, I translated the video, which was originally in English. The entire project was completed within a short timeframe using Adobe Premiere Pro.',
+    iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=QUrFat9nCfqdG1lr',
+    section: '2024',
   },
 ]

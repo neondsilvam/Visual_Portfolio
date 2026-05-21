@@ -20,7 +20,7 @@ export function Contacto() {
       <h4 className={styles.subtitle}>{subtitle2}</h4>
       <div className={styles.grid}>
         {items.map(({ label, value, href }) => (
-          <div key={label} className={styles.card}>
+          <div key={href} className={styles.card}>
             <p className={styles.label}>{label}</p>
             {href ? (
               <a href={href} className={styles.valueLink} target="_blank" rel="noreferrer">

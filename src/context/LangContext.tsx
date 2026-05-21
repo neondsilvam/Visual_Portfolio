@@ -51,7 +51,8 @@ const translations: Record<Lang, Translations> = {
       subtitle2: " \n\n No dejes tus ideas en borrador. Escríbeme y llevemos tu idea al siguiente nivel.",
       labels: {
         email: 'Email',
-        phone: 'Teléfono',
+        phoneCol: 'Teléfono',
+        phoneCad: 'Teléfono',
         location: 'Ubicación',
         linkedin: 'LinkedIn',
         github: 'GitHub',
@@ -107,7 +108,8 @@ const translations: Record<Lang, Translations> = {
       subtitle2: " \n\n Don't scrap those ideas. Send me a message and let's develop your idea's full potential!",
       labels: {
         email: 'Email',
-        phone: 'Phone',
+        phoneCol: 'Phone',
+        phoneCad: 'Phone',
         location: 'Location',
         linkedin: 'LinkedIn',
         github: 'GitHub',
