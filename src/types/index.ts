@@ -48,7 +48,8 @@ export interface Translations {
   }
   contacto: {
     title: string
-    subtitle: string
+    subtitle1: string
+    subtitle2: string
     labels: {
       email: string
       phone: string

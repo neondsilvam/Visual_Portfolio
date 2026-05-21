@@ -4,7 +4,7 @@ import styles from './Contacto.module.css'
 
 export function Contacto() {
   const { t } = useLang()
-  const { title, subtitle, labels } = t.contacto
+  const { title, subtitle1, subtitle2, labels } = t.contacto
 
   const items = [
     { label: labels.email, value: contactInfo.email, href: `mailto:${contactInfo.email}` },
@@ -15,8 +15,8 @@ export function Contacto() {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>{title}</h2>
-      <p className={styles.subtitle}>{subtitle}</p>
-
+      <h4 className={styles.subtitle}>{subtitle1}</h4>
+      <h4 className={styles.subtitle}>{subtitle2}</h4>
       <div className={styles.grid}>
         {items.map(({ label, value, href }) => (
           <div key={label} className={styles.card}>

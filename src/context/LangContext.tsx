@@ -46,8 +46,9 @@ const translations: Record<Lang, Translations> = {
     },
     contacto: {
       title: 'Infromación de contacto',
-      subtitle:
-        '¿Tienes un proyecto en mente o simplemente quieres saludar? Estoy disponible para nuevas oportunidades.',
+      subtitle1:
+        'Las buenas ideas merecen hacerse realidad. Si tienes un proyecto o simplemente ganas de crear algo diferente, este es el momento.',
+      subtitle2: " \n\n No dejes tus ideas en borrador. Escríbeme y llevemos tu idea al siguiente nivel.",
       labels: {
         email: 'Email',
         phone: 'Teléfono',
@@ -101,8 +102,9 @@ const translations: Record<Lang, Translations> = {
     },
     contacto: {
       title: 'Contact info',
-      subtitle:
-        "Have a project in mind or just want to say hi? I'm open to new opportunities.",
+      subtitle1:
+        "Insightful ideas deserve become a reallity. If you have a project in mind or simply have the impulse to make something different, this is your moment.",
+      subtitle2: " \n\n Don't scrap those ideas. Send me a message and let's develop your idea's full potential!",
       labels: {
         email: 'Email',
         phone: 'Phone',
