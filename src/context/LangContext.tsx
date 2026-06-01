@@ -24,7 +24,7 @@ const translations: Record<Lang, Translations> = {
         { id: '2023', label: '2023' },
         { id: '2022', label: '2022' },
       ],
-      aclaration: 'This had been my projects from the last years.',
+      aclaration: 'Estos han sido mis mejores projectos de estos ultimos años.',
       projects: [
         {
           id: 'p1',

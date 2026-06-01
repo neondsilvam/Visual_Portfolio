@@ -53,6 +53,7 @@ export function Proyectos() {
           <div className={styles.detailHeader}>
             <h2 className={styles.detailTitle}>{selected.title}</h2>
             <p className={styles.detailDesc}>{selected.description}</p>
+            {selected.hasExternalLinks ? (<a href={selected.externalLinks} target="_blank">{selected.externalLinks}</a>) : (<></>)}
           </div>
           <div className={styles.iframeWrapper}>
             {selected.iframeSrc ? (
@@ -64,7 +65,6 @@ export function Proyectos() {
               />
             ) : (
               <p className={styles.iframePlaceholder}>
-                Agrega una URL para ver la demo aquí
               </p>
             )}
           </div>

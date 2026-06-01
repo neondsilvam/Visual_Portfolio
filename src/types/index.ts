@@ -14,6 +14,8 @@ export interface Project {
   description: string
   iframeSrc: string
   section: string
+  hasExternalLinks: boolean
+  externalLinks: string
 }
 
 export interface ProjectTranslation {
