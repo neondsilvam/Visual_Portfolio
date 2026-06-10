@@ -21,6 +21,10 @@ export function Proyectos() {
   }, [lang])
 
   const selected = projects.find((p) => p.id === selectedId) ?? projects[0]
+  
+  function HandleDesc () {
+    selected.isShowingTheProcess = !selected.isShowingTheProcess;
+  }
 
 
   return (
@@ -68,6 +72,7 @@ export function Proyectos() {
               </p>
             )}
           </div>
+          <button className={styles.detailButton} onClick={() => {HandleDesc}}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
           <div className={styles.devopmentWrapper}>
             {selected.isShowingTheProcess ? (
                 <div>
@@ -76,7 +81,7 @@ export function Proyectos() {
                   </h4>
                 </div>
             ) : (
-                <div></div>
+                <></>
             )}
           </div>
         </div>
