@@ -2,12 +2,6 @@ export type Lang = 'es' | 'en'
 
 export type Page = 'perfil' | 'proyectos' | 'contacto'
 
-export interface ProjectStatic {
-    id: string
-    iframeSrc: string
-    section: string
-}
-
 export interface Project {
   id: string
   title: string
@@ -16,6 +10,27 @@ export interface Project {
   section: string
   hasExternalLinks: boolean
   externalLinks: string
+  isShowingTheProcess: boolean
+  process: {
+    sections:  {
+      preproduction: {
+        title: string
+        description: string []
+        media: string []
+      }
+      production: {
+        title: string
+        description: string []
+        media: string []
+      }
+      postproduction: {
+        title: string
+        description: string []
+        media: string []
+      }
+    }
+    sectionFooter: string
+  }
 }
 
 export interface ProjectTranslation {

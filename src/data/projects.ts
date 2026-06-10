@@ -12,6 +12,27 @@ export const AnimationProjects: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: true,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "Concepto del projecto.",
+          description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
+          media: ["Perfil_photo.jpg"],
+        },
+        production: {
+          title: "Concepto del projecto.",
+          description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
+          media: ["Perfil_photo.jpg"],
+        },
+        postproduction: {
+          title: "Concepto del projecto.",
+          description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
+          media: ["Perfil_photo.jpg"],
+        },
+      },
+      sectionFooter: "= )",
+    }
   },
   {
     id: 'p2',
@@ -24,6 +45,27 @@ export const AnimationProjects: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p3',
@@ -34,6 +76,27 @@ export const AnimationProjects: Project[] = [
     section: '2025',
     hasExternalLinks: true,
     externalLinks: "https://www.instagram.com/reel/DKHhPdvN8NO/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p4',
@@ -48,6 +111,27 @@ export const AnimationProjects: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p5',
@@ -58,6 +142,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p6',
@@ -68,6 +173,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p7',
@@ -78,6 +204,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p8',
@@ -88,6 +235,27 @@ export const AnimationProjects: Project[] = [
     section: '2023',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p9',
@@ -98,6 +266,27 @@ export const AnimationProjects: Project[] = [
     section: '2023',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p10',
@@ -112,6 +301,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p11',
@@ -122,6 +332,27 @@ export const AnimationProjects: Project[] = [
     section: '2022',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p12',
@@ -132,6 +363,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p13',
@@ -142,6 +394,27 @@ export const AnimationProjects: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
 ]
 
@@ -155,6 +428,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p2',
@@ -165,6 +459,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p3',
@@ -175,6 +490,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2025',
     hasExternalLinks: true,
     externalLinks: "https://www.instagram.com/reel/DKHhPdvN8NO/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p4',
@@ -185,6 +521,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2025',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p5',
@@ -195,6 +552,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p6',
@@ -205,6 +583,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p7',
@@ -215,6 +614,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p8',
@@ -225,6 +645,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2023',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p9',
@@ -235,6 +676,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2023',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p10',
@@ -245,6 +707,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p11',
@@ -255,6 +738,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2022',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p12',
@@ -265,6 +769,27 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
   {
     id: 'p13',
@@ -275,5 +800,26 @@ export const AnimationProjectsEn: Project[] = [
     section: '2024',
     hasExternalLinks: false,
     externalLinks: "",
+    isShowingTheProcess: false,
+    process: {
+      sections:  {
+        preproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        production: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+        postproduction: {
+          title: "",
+          description: [""],
+          media: [""],
+        },
+      },
+      sectionFooter: "",
+    }
   },
 ]

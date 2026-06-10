@@ -68,6 +68,17 @@ export function Proyectos() {
               </p>
             )}
           </div>
+          <div className={styles.devopmentWrapper}>
+            {selected.isShowingTheProcess ? (
+                <div>
+                  <h4>
+                    {selected.process.sections.preproduction.title}
+                  </h4>
+                </div>
+            ) : (
+                <div></div>
+            )}
+          </div>
         </div>
           </div>
     </section>
