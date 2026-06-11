@@ -72,13 +72,16 @@ export function Proyectos() {
               </p>
             )}
           </div>
-          <button className={styles.detailButton} onClick={() => {HandleDesc}}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
-          <div className={styles.devopmentWrapper}>
+          <button className={styles.processButton} onClick={() => {HandleDesc}}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
+          <div className={styles.processArea}>
             {selected.isShowingTheProcess ? (
-                <div>
-                  <h4>
+                <div className={styles.processFrame}>
+                  <h4 className={styles.processTitle}>
                     {selected.process.sections.preproduction.title}
                   </h4>
+                  <h5 className={styles.processDescription}>
+                    {selected.description}
+                  </h5>
                 </div>
             ) : (
                 <></>

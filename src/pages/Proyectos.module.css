@@ -107,7 +107,7 @@
 }
 
 .detailTitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   color: #111827;
   margin: 0 0 6px;
@@ -139,7 +139,21 @@
   color: #9ca3af;
 }
 
-.detailButton{
+.processArea{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.processFrame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.processButton{
   align-self: center;
   margin: 2em;
   font-size: 12px;
@@ -148,4 +162,41 @@
   background: #f3f4f6;
   color: #374151;
   border: 1px solid #e5e7eb;
+}
+
+.processButton :hover {
+  align-self: center;
+  margin: 2em;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  background: #374151;
+  color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+}
+
+.processTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.processSubtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #060c11;
+  margin: 1em;
+}
+
+.processDescription {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  margin: 1em;
+}
+
+.processMedia {
+  height: 50%;
+  width: 50%;
+  margin: 1em;
 }
