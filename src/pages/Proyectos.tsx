@@ -21,9 +21,15 @@ export function Proyectos() {
   }, [lang])
 
   const selected = projects.find((p) => p.id === selectedId) ?? projects[0]
-  
-  function HandleDesc () {
-    selected.isShowingTheProcess = !selected.isShowingTheProcess;
+
+  function handleDesc() {
+    setProjects(prev =>
+        prev.map(p =>
+            p.id === selectedId
+                ? { ...p, isShowingTheProcess: !p.isShowingTheProcess }
+                : p
+        )
+    )
   }
 
 
@@ -72,7 +78,7 @@ export function Proyectos() {
               </p>
             )}
           </div>
-          <button className={styles.processButton} onClick={() => {HandleDesc}}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
+          <button className={styles.processButton} onClick={handleDesc}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
           <div className={styles.processArea}>
             {selected.isShowingTheProcess ? (
                 <div className={styles.processFrame}>
