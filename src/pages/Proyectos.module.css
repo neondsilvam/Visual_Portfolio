@@ -153,6 +153,11 @@
   justify-content: center;
 }
 
+.processOrganizer{
+  display: flex;
+  flex-direction: row;
+}
+
 .processButton{
   align-self: center;
   margin: 2em;

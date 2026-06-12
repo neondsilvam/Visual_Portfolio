@@ -88,6 +88,14 @@ export function Proyectos() {
                   <h5 className={styles.processDescription}>
                     {selected.description}
                   </h5>
+                  <div className={styles.processOrganizer}>
+                    {selected.process.sections.preproduction.description.map((t) => (
+                        <p className={styles.processDescription}>{t}</p>
+                    ))}
+                    {selected.process.sections.preproduction.media.map((t) => (
+                        <img src={t}></img>
+                    ))}
+                  </div>
                 </div>
             ) : (
                 <></>
