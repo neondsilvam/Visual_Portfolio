@@ -1,4 +1,5 @@
 import type {Project} from '../types'
+import perfilPhoto from '../assets/Perfil_photo.jpg'
 
 export const AnimationProjects: Project[] = [
   {
@@ -16,19 +17,19 @@ export const AnimationProjects: Project[] = [
     process: {
       sections:  {
         preproduction: {
-          title: "Concepto del projecto.",
-          description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
-          media: ["Perfil_photo.jpg"],
+          title: "Concepto del projecto",
+          description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostrando el potencial visual.", "Mi objetivo principal era intentar aplicar el diseño original del estilo artistico de 'Los Simpson' al mismo tiempo que poder concervar el rimto accelerado de modern family.", 'Despues de una lluvia de idea, pude desarrollar mas a fondo el concepto para poder empezar la animación'],
+          media: [perfilPhoto],
         },
         production: {
-          title: "Concepto del projecto.",
+          title: "La producción actual",
           description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
-          media: ["Perfil_photo.jpg"],
+          media: [perfilPhoto],
         },
         postproduction: {
-          title: "Concepto del projecto.",
+          title: "Detalles finales",
           description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostraondo el potencial visual."],
-          media: ["Perfil_photo.jpg"],
+          media: [perfilPhoto],
         },
       },
       sectionFooter: "= )",

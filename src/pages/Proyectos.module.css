@@ -158,6 +158,12 @@
   flex-direction: row;
 }
 
+.processSection{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 .processButton{
   align-self: center;
   margin: 2em;
@@ -169,7 +175,7 @@
   border: 1px solid #e5e7eb;
 }
 
-.processButton :hover {
+.processButton:hover {
   align-self: center;
   margin: 2em;
   font-size: 12px;
@@ -201,7 +207,8 @@
 }
 
 .processMedia {
-  height: 50%;
-  width: 50%;
+  display: flex;
+  padding: 1em;
   margin: 1em;
+  border-radius: 25px;
 }

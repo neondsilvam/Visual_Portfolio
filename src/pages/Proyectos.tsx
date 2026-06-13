@@ -82,19 +82,53 @@ export function Proyectos() {
           <div className={styles.processArea}>
             {selected.isShowingTheProcess ? (
                 <div className={styles.processFrame}>
-                  <h4 className={styles.processTitle}>
-                    {selected.process.sections.preproduction.title}
-                  </h4>
                   <h5 className={styles.processDescription}>
                     {selected.description}
                   </h5>
+                  <h4 className={styles.processTitle}>
+                    {selected.process.sections.preproduction.title}
+                  </h4>
                   <div className={styles.processOrganizer}>
+                    <div className={styles.processSection}>
                     {selected.process.sections.preproduction.description.map((t) => (
                         <p className={styles.processDescription}>{t}</p>
                     ))}
+                    </div>
+                    <div className={styles.processSection}>
                     {selected.process.sections.preproduction.media.map((t) => (
-                        <img src={t}></img>
+                        <img className={styles.processMedia} src={t}></img>
                     ))}
+                    </div>
+                  </div>
+                  <h4 className={styles.processTitle}>
+                    {selected.process.sections.production.title}
+                  </h4>
+                  <div className={styles.processOrganizer}>
+                    <div className={styles.processSection}>
+                    {selected.process.sections.production.media.map((t) => (
+                        <img className={styles.processMedia} src={t}></img>
+                    ))}
+                    </div>
+                    <div className={styles.processSection}>
+                    {selected.process.sections.production.description.map((t) => (
+                        <p className={styles.processDescription}>{t}</p>
+                    ))}
+                    </div>
+                  </div>
+                  <h4 className={styles.processTitle}>
+                    {selected.process.sections.postproduction.title}
+                  </h4>
+                  <div className={styles.processOrganizer}>
+                    <div className={styles.processSection}>
+                      {selected.process.sections.postproduction.description.map((t) => (
+                          <p className={styles.processDescription}>{t}</p>
+                      ))}
+                    </div>
+                    <div className={styles.processSection}>
+                    {selected.process.sections.postproduction.media.map((t) => (
+                        <img className={styles.processMedia} src={t}></img>
+                    ))}
+                    </div>
                   </div>
                 </div>
             ) : (
