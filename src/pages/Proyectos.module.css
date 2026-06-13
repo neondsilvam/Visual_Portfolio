@@ -143,7 +143,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  padding: 1em;
 }
 
 .processFrame{
@@ -166,7 +166,7 @@
 
 .processButton{
   align-self: center;
-  margin: 2em;
+  margin: 1em;
   font-size: 12px;
   padding: 4px 12px;
   border-radius: 9999px;
@@ -177,7 +177,7 @@
 
 .processButton:hover {
   align-self: center;
-  margin: 2em;
+  margin: 1em;
   font-size: 12px;
   padding: 4px 12px;
   border-radius: 9999px;
@@ -207,6 +207,8 @@
 }
 
 .processMedia {
+  width: 100%;
+  height: 100%;
   display: flex;
   padding: 1em;
   margin: 1em;
