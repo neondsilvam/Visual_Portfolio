@@ -62,6 +62,8 @@ export interface Translations {
       sections: Section[]
       aclaration: string,
       projects: ProjectTranslation[]
+      showingProcessButtonTextFalse: string
+      showingProcessButtonTextTrue: string
   }
   contacto: {
     title: string

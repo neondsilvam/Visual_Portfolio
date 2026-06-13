@@ -14,7 +14,7 @@ export const AnimationProjects: Project[] = [
         section: '2025',
         hasExternalLinks: false,
         externalLinks: "",
-        isShowingTheProcess: true,
+        isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
@@ -59,22 +59,28 @@ export const AnimationProjects: Project[] = [
         process: {
             sections: {
                 preproduction: {
-                    title: "",
-                    description: [""],
+                    title: "Conceptos iniciales",
+                    description: ["Este fue un ejercicio de corto tiempo, el cual tenia el objetivo de afectar artisticamente un clip de material ya exsistente con el fin de darle un nuevo significado.","Debido a que este tenia un proposito breve y unicamente experimental, la idea no era tanto la planificaicón sino entender la ejecución.", 
+                        "Referencias", 
+                        "Raimi, S. (Director). (2007). Spider-Man 3 [Film].",
+                        "Tesfaye, A. (2019). Blinding Lights [Canción]. En After Hours. XO Records; Republic Records."],
                     media: [""],
                 },
                 production: {
-                    title: "",
-                    description: [""],
+                    title: "Proceso de creación",
+                    description: ["La idea inicial era simplemente hacer un trazo por frame, donde cada uno tuviera un color diferente.",
+                        "Por ende, el proceso del mismo se enfocaba en usar un seguimiento 'Frame to frame' con el fin de tener las aciones tan unificadas poisble.",
+                        "Tambien cabe resaltar que la animación esta divida entre personajes, fondos, y efectos los cuales tambien se subdividen dentro de animación lineart y de coloreado."],
                     media: [""],
                 },
                 postproduction: {
-                    title: "",
-                    description: [""],
+                    title: "Detalles finales",
+                    description: ["Ya dentro de este ultimo proceso es poder usar premiere y after effects para mejorar la animación, crear el efecto de desfase, y encajar las diferentes capas.",
+                        "Tambien retocar el audio y agregar los detalles finales del texto para darle un poco mas de contexto."],
                     media: [""],
                 },
             },
-            sectionFooter: "",
+            sectionFooter: "Este projecto no infrinje ningun derecho de autor y le da el credito del concepto original a sus respectivos autores.",
         }
     },
     {
@@ -90,22 +96,38 @@ export const AnimationProjects: Project[] = [
         process: {
             sections: {
                 preproduction: {
-                    title: "",
-                    description: [""],
+                    title: "Planeación del projecto",
+                    description: ["Este es facilmente uno de los projectos mas ambisiosos en los que he tenido la oportunidad de trabajar",
+                        'Durante este, primero tuvimos el concepto inicial de generar una animación a base de dos ideales opuestos; en este caso, la naturaleza y la industrialización.', 
+                        'Tambien queriamos generar una disrupción del sistema, poder generar im impacto del cual se pudiera generar en el espacio publico', 'De ahi el concepto del graffiti y del arte del muralismo.', 
+                        'Posterior a este, como era un trabajo en conjunto, nos decidimos a dividir el projecto, cada uno haciendo una pequeña parte de este, para al final unirlo todo en el projecto final.', 
+                        'la idea are generar un diseño, el cual conectaria con el de otra persona, haciendo un "Cadaver Esquicito" de la animación.',
+                        'Esto incluye hacer pruebas, prototipos, y ensayos de manera digital antes del dia de producción.'],
                     media: [""],
                 },
                 production: {
-                    title: "",
-                    description: [""],
+                    title: 'Los dias de "Animación"',
+                    description: ["Como tal, el proceso se divido en dos fechas: El dia del graffiti y el dia de la conexión.", 
+                        'El dia del grafiti, todos nos encontramos en un espacio ya acordado, donde pintabamos en analogo cada uno de los frames, para despues poder tomar las respectivas fotos.', 
+                        'Debido a la logica del proceso, si o si tocaba animarlo frame by frame, esto con el fin de poder probar ahi mismo que la fluidez era adecuada.',
+                        'Esto se hizo en conjunto con el fin de poder ayudarnos entre nosotros.',
+                        'La segunda parte del proceso consistia en unir las fotos dentro del video de cada uno.',
+                        'para esto ocupamos photoshop con el fin de poder ajustar las imagenes correctamente, al igual que poder corregir cualquier hueco generado por la camada al hacer coincidir la matriz.',
+                        'Esto a traves de puntos de referncia que teniamos puetos en cada frame, para asegurarnos de no dañar la escala en si.',
+                        'ACLARACIÓN:',
+                        'Los espacios utilizados para este proceso fueron autorizados para el mismo. Agradecimientos a La Universidad de los Andes por permitirmos este espacio.'],
                     media: [""],
                 },
                 postproduction: {
-                    title: "",
-                    description: [""],
+                    title: "Detalles finales",
+                    description: ["Dentro de este proceso, teniamos un administrador del projecto, el cual estaria encargado de unir todas las piezas en su totalidad.",
+                        'Por ende, como ninguna de las piezas podia faltar, el trabajo en equipo era indispensable.', 
+                        'Todos nos comprometimos a completar y a enviar nuestros clips, los cuales se reflejaron en el producto final.',
+                        'Otra compañera estuvo acargo de generar el audio, concluyendo este projecto'],
                     media: [""],
                 },
             },
-            sectionFooter: "",
+            sectionFooter: "Agradecimentos especiales a La Universidad de los Andes por este projecto.",
         }
     },
     {

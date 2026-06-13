@@ -80,13 +80,10 @@ export function Proyectos() {
                         )}
                     </div>
                     <button className={styles.processButton}
-                            onClick={handleDesc}>{selected.isShowingTheProcess ? "Hide the process" : "Show the process"}</button>
+                            onClick={handleDesc}>{selected.isShowingTheProcess ? t.proyectos.showingProcessButtonTextTrue : t.proyectos.showingProcessButtonTextFalse}</button>
                     {selected.isShowingTheProcess ? (
                         <div className={styles.processArea}>
                             <div className={styles.processFrame}>
-                                <h5 className={styles.processDescription}>
-                                    {selected.description}
-                                </h5>
                                 <h4 className={styles.processTitle}>
                                     {selected.process.sections.preproduction.title}
                                 </h4>

@@ -42,7 +42,9 @@ const translations: Record<Lang, Translations> = {
           title: 'Proyecto Gamma',
           description:'Experimento con animaciones generativas usando Canvas API y algoritmos de ruido procedural.',
         }
-      ]
+      ],
+      showingProcessButtonTextFalse: "Mostrar proceso",
+      showingProcessButtonTextTrue: "Ocultar proceso",
     },
     contacto: {
       title: 'Infromación de contacto',
@@ -99,7 +101,9 @@ const translations: Record<Lang, Translations> = {
                 title: 'Proyecto Gamma',
                 description:'Experimento con animaciones generativas usando Canvas API y algoritmos de ruido procedural.',
             }
-        ]
+        ],
+    showingProcessButtonTextFalse: "Show Process",
+    showingProcessButtonTextTrue: "Hide Process",
     },
     contacto: {
       title: 'Contact info',
