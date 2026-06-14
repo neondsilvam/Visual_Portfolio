@@ -1,4 +1,26 @@
 import type {Project} from '../types'
+
+//AllDigital y Yandex
+import YandexPre1 from '../assets/Alldigital y Yandex ADS/preprocess.png'
+import YandexPre2 from '../assets/Alldigital y Yandex ADS/preprocess2.png'
+import YandexPro1 from '../assets/Alldigital y Yandex ADS/process.png'
+import YandexPro2 from '../assets/Alldigital y Yandex ADS/process2.png'
+import YandexPost from '../assets/Alldigital y Yandex ADS/postprocess.png'
+
+//Big Commerce
+import BigPre from '../assets/Big/preprocess.png'
+import BigPro1 from '../assets/Big/process1.png'
+import BigPro3 from '../assets/Big/process2.png'
+import BigPro2 from '../assets/Big/process3.png'
+import BigPost from '../assets/Big/postprocess.png'
+
+//Cantar un velero
+import CantarPre1 from '../assets/Cantar/preprocess1.png'
+import CantarPre2 from '../assets/Cantar/preprocess2.png'
+import CantarPro1 from '../assets/Cantar/process1.png'
+import CantarPro2 from '../assets/Cantar/process2.png'
+import CantarPost from '../assets/Cantar/postprocess.png'
+
 import simpsonReference from '../assets/couch/simpson_reference.jpg'
 import modernReference from '../assets/couch/modern_reference.jpg'
 
@@ -401,7 +423,7 @@ export const AnimationProjects: Project[] = [
                 preproduction: {
                     title: "",
                     description: [""],
-                    media: [""],
+                    media: [YandexPre1],
                 },
                 production: {
                     title: "",
