@@ -1,6 +1,6 @@
 import type {Project} from '../types'
-import simpsonReference from '../assets/simpson_reference.jpg'
-import modernReference from '../assets/modern_reference.jpg'
+import simpsonReference from '../assets/couch/simpson_reference.jpg'
+import modernReference from '../assets/couch/modern_reference.jpg'
 
 export const AnimationProjects: Project[] = [
     {
