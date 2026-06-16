@@ -207,8 +207,8 @@
 }
 
 .processMedia {
-  width: 100%;
-  height: auto;
+  height: auto;  width: 100%;
+
   display: flex;
   padding: 1em;
   margin: 1em;
