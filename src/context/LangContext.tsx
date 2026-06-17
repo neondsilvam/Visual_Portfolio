@@ -8,7 +8,7 @@ const translations: Record<Lang, Translations> = {
       perfil: 'Perfil',
       proyectos: 'Proyectos',
       contacto: 'Contacto',
-      langBtn: 'EN',
+      langBtn: 'ES',
     },
     perfil: {
       name: 'Julian D Silva',
@@ -67,7 +67,7 @@ const translations: Record<Lang, Translations> = {
       perfil: 'Profile',
       proyectos: 'Projects',
       contacto: 'Contact',
-      langBtn: 'ES',
+      langBtn: 'EN',
     },
     perfil: {
       name: 'Julian D Silva',
@@ -131,7 +131,7 @@ interface LangContextValue {
 const LangContext = createContext<LangContextValue | null>(null)
 
 export function LangProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>('es')
+  const [lang, setLang] = useState<Lang>('en')
 
   const toggleLang = () => setLang((prev) => (prev === 'es' ? 'en' : 'es'))
 
