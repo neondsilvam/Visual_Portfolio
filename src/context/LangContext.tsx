@@ -24,24 +24,8 @@ const translations: Record<Lang, Translations> = {
         { id: '2023', label: '2023' },
         { id: '2022', label: '2022' },
       ],
-      aclaration: 'Estos han sido mis mejores projectos de estos ultimos años.',
+      aclaration: 'Estos han sido mis projectos favoritos de estos ultimos años.',
       projects: [
-        {
-          id: 'p1',
-          title: 'La Familia Amarilla sin derechos de autor',
-          description:
-              'Este es un projecto estulo "Couche Gag" el cual combina dos intros de series de la cadena anteriormente conocida como "FOX". Estos se hicieron unicamente con proposito educativo y sin ningun tipo de remuneración. Esta fue hecha durante 2 semanas usandos los programas de Adobe Photoshop y Adobe After Effects',
-        },
-        {
-          id: 'p2',
-          title: 'Proyecto Beta',
-          description: 'Dashboard de analíticas con visualizaciones interactivas. Datos en tiempo real con WebSockets y exportación a CSV.',
-        },
-        {
-          id: 'p3',
-          title: 'Proyecto Gamma',
-          description:'Experimento con animaciones generativas usando Canvas API y algoritmos de ruido procedural.',
-        }
       ],
       showingProcessButtonTextFalse: "Mostrar proceso",
       showingProcessButtonTextTrue: "Ocultar proceso",
@@ -83,24 +67,8 @@ const translations: Record<Lang, Translations> = {
             { id: '2023', label: '2023' },
             { id: '2022', label: '2022' },
         ],
-        aclaration: 'This had been my projects from the last years.',
+        aclaration: 'This had been my favorite projects from the last years.',
         projects: [
-            {
-                id: 'p1',
-                title: 'La Familia Amarilla sin derechos de autor',
-                description:
-                    'Este es un projecto estulo "Couche Gag" el cual combina dos intros de series de la cadena anteriormente conocida como "FOX". Estos se hicieron unicamente con proposito educativo y sin ningun tipo de remuneración. Esta fue hecha durante 2 semanas usandos los programas de Adobe Photoshop y Adobe After Effects',
-            },
-            {
-                id: 'p2',
-                title: 'Proyecto Beta',
-                description: 'Dashboard de analíticas con visualizaciones interactivas. Datos en tiempo real con WebSockets y exportación a CSV.',
-            },
-            {
-                id: 'p3',
-                title: 'Proyecto Gamma',
-                description:'Experimento con animaciones generativas usando Canvas API y algoritmos de ruido procedural.',
-            }
         ],
     showingProcessButtonTextFalse: "Show Process",
     showingProcessButtonTextTrue: "Hide Process",
