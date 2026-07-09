@@ -75,7 +75,7 @@ export interface Translations {
       phoneCad: string
       location: string
       linkedin: string
-      github: string
+      linktree: string
     }
   }
 }

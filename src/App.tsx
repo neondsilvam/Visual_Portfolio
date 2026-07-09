@@ -6,6 +6,7 @@ import { Proyectos } from './pages/Proyectos'
 import { Contacto } from './pages/Contacto'
 import type {Page} from './types'
 import { Footer } from './components/Footer'
+import { Loadder } from "./components/Loadder.tsx";
 import './App.css'
 
 function AppContent() {
@@ -27,6 +28,7 @@ function AppContent() {
       <Navbar currentPage={currentPage} onNavigate={setCurrentPage} />
           <main className="main">{renderPage()}</main>
       <Footer />
+      <Loadder />
     </div>
   )
 }
