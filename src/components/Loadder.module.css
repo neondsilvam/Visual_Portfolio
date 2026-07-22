@@ -18,4 +18,5 @@
     animation: StartUpAnimation 1s ease-out forwards;
     animation-delay: 2s;
     z-index: 9999;
+    pointer-events: none;
 }
