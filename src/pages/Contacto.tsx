@@ -9,7 +9,7 @@ export function Contacto() {
   const items = [
     { label: labels.email, value: contactInfo.email, href: `mailto:${contactInfo.email}` },
     { label: labels.phoneCol, value: contactInfo.phoneCol, href: `tel:${contactInfo.phoneCol}` },
-    { label: labels.phoneCad, value: contactInfo.phoneCad, href: `tel:${contactInfo.phoneCad}` },
+    /*{ label: labels.phoneCad, value: contactInfo.phoneCad, href: `tel:${contactInfo.phoneCad}` }, currently disabled*/
     { label: labels.linktree, value: contactInfo.linktree, href: `https://${contactInfo.linktree}` },
     { label: labels.linkedin, value: contactInfo.linkedin, href: `https://${contactInfo.linkedin}` },
   ]
