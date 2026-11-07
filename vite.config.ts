@@ -5,4 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: "/Visual_Portfolio/",
   plugins: [react()],
+    server: {
+        watch: {
+            ignored: ['**/.vs/**'],
+        },
+    },
 })
