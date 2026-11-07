@@ -1,0 +1,93 @@
+.section{
+    padding: 2em;
+    background-color: rgb(255 255 255 / 0.5);
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+.title{
+    font-size: 3em;
+    font-weight: 700;
+    color: #000000;
+    margin: auto;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    color: #000000;
+    margin: auto;
+}
+
+.organizer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Specific for each highlight*/
+
+.heading{
+    font-size: 1em;
+    font-weight: 350;
+    color: #000000;
+    background-color: rgb(191 189 189 / 0.57);
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    width: 60%;
+    align-self: center;
+}
+
+.highlights{
+    display: grid;
+    text-align: center;
+    background-color: rgb(197 197 197 / 0.26);
+    border-radius: 10px;
+    margin: 2em;
+    justify-content: center;
+    height: 50%;
+}
+
+.container{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+
+.description{
+    font-size: 0.7em;
+    color: #000000;
+    text-align: center;
+    vertical-align: center;
+    margin: 1em;
+}
+
+.media{
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+.button{
+    margin: 0.8em;
+    padding: 1em;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.button:hover {
+    background: #f3f4f6;
+    color: #000500;
+}
+
+/*For the responsive area*/
+
+
+@media screen and (min-width: 800px) {
+    .organizer{
+        flex-direction: row;
+    }
+}

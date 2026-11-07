@@ -18,7 +18,12 @@ const translations: Record<Lang, Translations> = {
           "\n\nCuento con experiencia en el desarrollo de proyectos narrativos y multimedia, integrando áreas como producción audiovisual, animación, programación y creación de contenidos digitales." +
           "\n\nEn el ámbito audiovisual, he participado tanto en proyectos de entretenimiento como comerciales, colaborando en la producción de animaciones, cortometrajes, grabación y edición de anuncios, entre otros formatos audiovisuales." +
           "\n\nMe caracterizo por ser una persona persistente, organizada y con facilidad para el trabajo en equipo. Sé escuchar, aprender de los demás y adaptarme a nuevos entornos e ideas, siempre con disposición para seguir creciendo profesional y creativamente.",
-      tags: ['Photoshop - 4 años', 'Premiere - 5 años', 'Reaper - 4 años', 'Ilustrator - 1 año', 'After Effects - 1 año', 'Final cut - 2 años', 'Stop motion studio - 2 años'],
+        tags: ['Photoshop - 4 años', 'Premiere - 5 años', 'Reaper - 4 años', 'Ilustrator - 1 año', 'After Effects - 1 año', 'Final cut - 2 años', 'Stop motion studio - 2 años'],
+        Highlights: {
+            title: "Destacados",
+            subTitle: "Estos han sindo algunos de mis projectos mas destacados"
+        },
+        seeMore: "Ver mas"
     },
     proyectos: {
       sections: [
@@ -45,7 +50,8 @@ const translations: Record<Lang, Translations> = {
         location: 'Ubicación',
         linkedin: 'LinkedIn',
         linktree: 'Mis otros portafolios',
-      },
+        },
+        ShortSubtitle: "¿Quieres contactarme?"
     },
   },
   en: {
@@ -64,6 +70,11 @@ const translations: Record<Lang, Translations> = {
           "\n\nIn the audiovisual field, I have worked on both entertainment and commercial projects, contributing to the production of animations, short films, advertisement recording and editing, among other audiovisual formats." +
           "\n\nI am a persistent, organized, and collaborative person who values teamwork and active listening. I am open to new ideas, eager to learn from others, and adaptable to different environments, always striving for both professional and creative growth. ",
         tags: ['Photoshop - 4 years', 'Premiere - 5 years', 'Reaper - 4 years', 'Ilustrator - 1 year', 'After Effects - 1 year', 'Final cut - 2 years', 'Stop motion studio - 2 years'],
+        Highlights: {
+            title: "Highlights",
+            subTitle: "This had been some of my best most recent projects"
+        },
+        seeMore: "See More"
     },
     proyectos: {
       sections: [
@@ -90,7 +101,8 @@ const translations: Record<Lang, Translations> = {
         location: 'Location',
         linkedin: 'LinkedIn',
         linktree: 'My other projects',
-      },
+        },
+        ShortSubtitle: "Want to get in touch?"
     },
   },
 }

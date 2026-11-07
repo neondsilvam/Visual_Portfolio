@@ -1,4 +1,4 @@
-import type {Project} from '../types'
+import type {Project, HighlightProjects} from '../types'
 
 //AllDigital y Yandex
 import YandexPre1 from '../assets/Alldigital y Yandex ADS/preprocess.png'
@@ -1131,5 +1131,59 @@ export const AnimationProjectsEn: Project[] = [
             },
             sectionFooter: "",
         }
+    },
+]
+
+export const HighlightsES: HighlightProjects[] = [
+    {
+        id: 'p1',
+        title: 'La Familia amarrilla con derechos de autor',
+        description: 'Este proyecto, inspirado en el formato "Couch Gag", fusiona las introducciones de dos series de la antigua cadena FOX. Fue realizado únicamente con fines académicos y sin fines comerciales.',
+        imgSrc: CouchPro1,
+        posInList: 0,
+        section: "proyectos"
+    },
+    {
+        id: 'p2',
+        title: 'Deraíz',
+        description: 'Este es un proyecto que hice en colaboración con la Universidad de los Andes. Este tenía el propósito de generar un movimiento artístico de expresión visual, combinando técnicas análogas y digitales.',
+        imgSrc: deraizPost,
+        posInList: 1,
+        section: "proyectos"
+    },
+    {
+        id: 'p3',
+        title: 'Camilo y Sofia',
+        description: 'Este es un cortometraje que escribí, produje, dirigí y edité en 2025. Su desarrollo fue un proceso de aproximadamente dos meses, durante los cuales estuve a cargo de la planeación integral del proyecto, la escritura del guion, la organización del casting y todo el proceso de postproducción.',
+        imgSrc: cysPro1,
+        posInList: 2,
+        section: "proyectos"
+    },
+]
+
+export const HighlightsEN: HighlightProjects[] = [
+    {
+        id: 'p1',
+        title: 'The Yellow Family without Copyright',
+        description: 'This is a "Couch Gag" style project that combines two intro sequences from television series originally aired on the network formerly known as "FOX". The project was created exclusively for educational purposes and without any type of financial compensation..',
+        imgSrc: CouchPro1,
+        posInList: 0,
+        section: "proyectos"
+    },
+    {
+        id: 'p2',
+        title: 'Deraíz',
+        description: 'This project was developed in collaboration with the Universidad de los Andes. Its purpose was to create an artistic visual expression movement by combining analog and digital techniques.',
+        imgSrc: deraizPost,
+        posInList: 1,
+        section: "proyectos"
+    },
+    {
+        id: 'p3',
+        title: 'Camilo & Sofia',
+        description: 'This is a short film that I directed and edited in 2025. The production process lasted approximately 2 months, during which I was responsible for planning, script development, casting, and post-production editing.',
+        imgSrc: cysPro1,
+        posInList: 2,
+        section: "proyectos"
     },
 ]

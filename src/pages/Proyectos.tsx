@@ -4,14 +4,14 @@ import type {Project} from '../types'
 import {AnimationProjects, AnimationProjectsEn} from '../data/projects'
 import styles from './Proyectos.module.css'
 
-export function Proyectos() {
+export function Proyectos({ initialIndex }: { initialIndex: number }) {
     const {t, lang} = useLang()
 
     const [projects, setProjects] = useState<Project[]>(
         lang === 'en' ? AnimationProjectsEn : AnimationProjects
     )
     const [selectedId, setSelectedId] = useState<string>(
-        lang === 'en' ? AnimationProjectsEn[0].id : AnimationProjects[0].id
+        lang === 'en' ? AnimationProjectsEn[initialIndex].id : AnimationProjects[initialIndex].id
     )
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export function Proyectos() {
         setSelectedId(nextProjects[0].id)
     }, [lang])
 
-    const selected = projects.find((p) => p.id === selectedId) ?? projects[0]
+    const selected = projects.find((p) => p.id === selectedId) ?? projects[initialIndex]
 
     function handleDesc() {
         setProjects(prev =>

@@ -2,6 +2,15 @@ export type Lang = 'es' | 'en'
 
 export type Page = 'perfil' | 'proyectos' | 'contacto'
 
+export interface HighlightProjects {
+    id: string
+    title: string
+    description: string
+    imgSrc: string
+    posInList: number
+    section: Page
+}
+
 export interface Project {
   id: string
   title: string
@@ -57,6 +66,11 @@ export interface Translations {
     role: string
     description: string
     tags: string[]
+    Highlights: {
+        title: string
+        subTitle: string
+      }
+      seeMore: string
   }
   proyectos: {
       sections: Section[]
@@ -69,6 +83,7 @@ export interface Translations {
     title: string
     subtitle1: string
     subtitle2: string
+    ShortSubtitle: string
     labels: {
       email: string
       phoneCol: string

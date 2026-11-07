@@ -1,6 +1,8 @@
 import { useLang } from '../context/LangContext'
 import styles from './Perfil.module.css'
 import Perfil_photo from '../assets/Perfil_photo.jpg'
+import { DirectContact } from '../components/DirectContact'
+import { Highlights } from '../components/Highlights'
 
 export function Perfil() {
   const { t } = useLang()
@@ -26,6 +28,8 @@ export function Perfil() {
           </div>
         </div>
       </div>
+      <Highlights />
+      <DirectContact />
     </section>
   )
 }

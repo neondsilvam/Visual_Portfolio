@@ -1,23 +1,23 @@
-import { useState } from 'react'
+import { NavProvider, useNav } from './context/NavContext'
 import { LangProvider } from './context/LangContext'
 import { Navbar } from './components/Navbar'
 import { Perfil } from './pages/Perfil'
 import { Proyectos } from './pages/Proyectos'
 import { Contacto } from './pages/Contacto'
-import type {Page} from './types'
 import { Footer } from './components/Footer'
 import { Loadder } from "./components/Loadder.tsx";
 import './App.css'
 
 function AppContent() {
-  const [currentPage, setCurrentPage] = useState<Page>('perfil')
+  const { page } = useNav()
 
   const renderPage = () => {
-    switch (currentPage) {
+
+    switch (page) {
       case 'perfil':
         return <Perfil />
       case 'proyectos':
-        return <Proyectos />
+            return <Proyectos initialIndex={0} />
       case 'contacto':
         return <Contacto />
     }
@@ -25,7 +25,7 @@ function AppContent() {
 
   return (
     <div className="app">
-      <Navbar currentPage={currentPage} onNavigate={setCurrentPage} />
+      <Navbar />
           <main className="main">{renderPage()}</main>
       <Footer />
       <Loadder />
@@ -35,8 +35,10 @@ function AppContent() {
 
 export default function App() {
   return (
-    <LangProvider>
-      <AppContent />
-    </LangProvider>
+      <LangProvider>
+          <NavProvider>
+              <AppContent />
+          </NavProvider>
+      </LangProvider>
   )
 }
