@@ -9,7 +9,7 @@ import { Loadder } from "./components/Loadder.tsx";
 import './App.css'
 
 function AppContent() {
-  const { page } = useNav()
+  const { page, number } = useNav()
 
   const renderPage = () => {
 
@@ -17,7 +17,7 @@ function AppContent() {
       case 'perfil':
         return <Perfil />
       case 'proyectos':
-            return <Proyectos initialIndex={0} />
+            return <Proyectos initialIndex={number} />
       case 'contacto':
         return <Contacto />
     }

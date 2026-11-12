@@ -8,7 +8,7 @@ import {useNav} from "../context/NavContext.tsx";
 export function Highlights()
 {
     const {t, lang} = useLang();
-    const { changePage } = useNav()
+    const { changePage, changeNumber } = useNav()
 
     const [projects, setProjects] = useState<HighlightProjects[]>(
         lang === 'en' ? HighlightsEN : HighlightsES
@@ -40,7 +40,10 @@ export function Highlights()
                             </p>
                             <button
                                 className={styles.button}
-                                onClick={() => changePage(project.section)}>
+                                onClick={() => {
+                                    changePage(project.section);
+                                    changeNumber(project.id);
+                                }}>
                                 {t.perfil.seeMore}
                             </button>
                         </div>

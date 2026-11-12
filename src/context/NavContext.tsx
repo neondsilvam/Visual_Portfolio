@@ -2,19 +2,23 @@ import { createContext, type ReactNode, useContext, useState } from "react";
 import type { Page } from "../types";
 
 interface NavContextValue {
+    number: number
     page: Page
     changePage: (page: Page) => void
+    changeNumber: (number: number) => void
 }
 
 const NavContext = createContext<NavContextValue | null>(null)
 
 export function NavProvider({ children }: { children: ReactNode }) {
+    const [number, setNumber] = useState<number>(0)
     const [page, setPage] = useState<Page>('perfil')
 
+    const changeNumber = (newNumber: number) => setNumber(newNumber)
     const changePage = (newPage: Page) => setPage(newPage)
 
     return (
-        <NavContext.Provider value={{ page, changePage }}>
+        <NavContext.Provider value={{ number, page, changePage, changeNumber }}>
             {children}
         </NavContext.Provider>
     )
