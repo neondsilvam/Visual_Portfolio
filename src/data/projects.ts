@@ -1148,7 +1148,7 @@ export const HighlightsES: HighlightProjects[] = [
         title: 'Deraíz',
         description: 'Este es un proyecto que hice en colaboración con la Universidad de los Andes. Este tenía el propósito de generar un movimiento artístico de expresión visual, combinando técnicas análogas y digitales.',
         imgSrc: deraizPost,
-        posInList: 1,
+        posInList: 2,
         section: "proyectos"
     },
     {
@@ -1156,7 +1156,7 @@ export const HighlightsES: HighlightProjects[] = [
         title: 'Camilo y Sofia',
         description: 'Este es un cortometraje que escribí, produje, dirigí y edité en 2025. Su desarrollo fue un proceso de aproximadamente dos meses, durante los cuales estuve a cargo de la planeación integral del proyecto, la escritura del guion, la organización del casting y todo el proceso de postproducción.',
         imgSrc: cysPro1,
-        posInList: 2,
+        posInList: 3,
         section: "proyectos"
     },
 ]
@@ -1175,7 +1175,7 @@ export const HighlightsEN: HighlightProjects[] = [
         title: 'Deraíz',
         description: 'This project was developed in collaboration with the Universidad de los Andes. Its purpose was to create an artistic visual expression movement by combining analog and digital techniques.',
         imgSrc: deraizPost,
-        posInList: 1,
+        posInList: 2,
         section: "proyectos"
     },
     {
@@ -1183,7 +1183,7 @@ export const HighlightsEN: HighlightProjects[] = [
         title: 'Camilo & Sofia',
         description: 'This is a short film that I directed and edited in 2025. The production process lasted approximately 2 months, during which I was responsible for planning, script development, casting, and post-production editing.',
         imgSrc: cysPro1,
-        posInList: 2,
+        posInList: 3,
         section: "proyectos"
     },
 ]

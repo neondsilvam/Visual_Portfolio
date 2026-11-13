@@ -3,9 +3,11 @@ import {useLang} from '../context/LangContext'
 import type {Project} from '../types'
 import {AnimationProjects, AnimationProjectsEn} from '../data/projects'
 import styles from './Proyectos.module.css'
+import { useNav } from '../context/NavContext'
 
 export function Proyectos({ initialIndex }: { initialIndex: number }) {
-    const {t, lang} = useLang()
+    const { t, lang } = useLang()
+    const { number } = useNav()
 
     const [projects, setProjects] = useState<Project[]>(
         lang === 'en' ? AnimationProjectsEn : AnimationProjects
@@ -17,8 +19,8 @@ export function Proyectos({ initialIndex }: { initialIndex: number }) {
     useEffect(() => {
         const nextProjects = lang === 'en' ? AnimationProjectsEn : AnimationProjects
         setProjects(nextProjects)
-        setSelectedId(nextProjects[0].id)
-    }, [lang])
+        setSelectedId(nextProjects[number].id)
+    }, [lang, number])
 
     const selected = projects.find((p) => p.id === selectedId) ?? projects[initialIndex]
 

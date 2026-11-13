@@ -17,10 +17,11 @@ function AppContent() {
       case 'perfil':
         return <Perfil />
       case 'proyectos':
-            return <Proyectos initialIndex={number} />
+        return <Proyectos initialIndex={number} />
       case 'contacto':
         return <Contacto />
-    }
+      }
+
   }
 
   return (

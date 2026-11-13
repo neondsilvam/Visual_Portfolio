@@ -5,7 +5,7 @@ import { useNav } from '../context/NavContext'
 
 export function Navbar() {
     const { t, toggleLang } = useLang()
-    const { page: currentPage, changePage } = useNav();
+    const { page: currentPage, changePage, changeNumber } = useNav();
 
   const pages: { key: Page; label: string }[] = [
     { key: 'perfil', label: t.nav.perfil },
@@ -22,7 +22,12 @@ export function Navbar() {
                   <button
                       key={key}
                       className={`${styles.link} ${currentPage === key ? styles.active : ''}`}
-                      onClick={() => changePage(key)}
+                      onClick={() => {
+                          changePage(key);
+                          if (key !== 'proyectos') {
+                              changeNumber(0);
+                          }
+                      }}
                   >
                       {label}
                   </button>

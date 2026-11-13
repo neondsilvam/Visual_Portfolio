@@ -42,7 +42,7 @@ export function Highlights()
                                 className={styles.button}
                                 onClick={() => {
                                     changePage(project.section);
-                                    changeNumber(project.id);
+                                    changeNumber(project.posInList);
                                 }}>
                                 {t.perfil.seeMore}
                             </button>
